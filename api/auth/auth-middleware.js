@@ -74,5 +74,6 @@ const checkPasswordLength = (req,res,next) => {
 module.exports = {
   checkUsernameFree,
   checkUsernameExists,
-  checkPasswordLength
+  checkPasswordLength,
+  restricted
 }
